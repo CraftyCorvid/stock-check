@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import datetime
 from importlib import import_module
 from importlib.resources import open_text
 
@@ -17,6 +18,7 @@ for (product, pinfo) in products.items():
     store = import_module('src.stores.{}'.format(pinfo['store']))
     in_stock = store.inStock(soup)
     reminder_count = pinfo['reminder-counter']
+    print("[{}] {}: {}".format(datetime.now(), product, in_stock))
     if in_stock != pinfo['in-stock'] or \
       (in_stock and reminder_count < 5):
         name = pinfo['name']
