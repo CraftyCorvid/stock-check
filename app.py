@@ -25,5 +25,5 @@ for (product, pinfo) in products.items():
         discordNotify(os.environ[pinfo['channel-url']], message)
         products[product]['in-stock'] = in_stock
         products[product]['reminder-counter'] = reminder_count + 1 if in_stock else 0
-        with open(cwd + 'data/products.json', 'w') as products_fp:
+        with open(cwd + '/data/products.json', 'w') as products_fp:
             json.dump(products, products_fp)
