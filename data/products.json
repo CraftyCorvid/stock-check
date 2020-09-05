@@ -1,0 +1,10 @@
+{
+    "H1-Black": {
+        "name": "NZXT H1",
+        "store": "NZXT",
+        "URL": "https://www.nzxt.com/products/h1-matte-black",
+        "in-stock": false,
+        "reminder-counter": 0,
+        "channel-url": "H1_WEBHOOK"
+    }
+}
