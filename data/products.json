@@ -14,13 +14,5 @@
         "in-stock": false,
         "reminder-counter": 0,
         "channel-url": "BBW_WEBHOOK"
-    },
-    "BBW-Pedestal": {
-        "name": "BBW Ornate Heart Pedestal 3-Wick Candle Holder",
-        "store": "BBW",
-        "URL": "https://www.bathandbodyworks.com/p/ornate-heart-pedestal-3-wick-candle-holder-026054797.html",
-        "in-stock": false,
-        "reminder-counter": 0,
-        "channel-url": "BBW_WEBHOOK"
     }
 }
