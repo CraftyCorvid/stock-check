@@ -1,18 +1,1 @@
-{
-    "H1-Black": {
-        "name": "NZXT H1",
-        "store": "NZXT",
-        "URL": "https://www.nzxt.com/products/h1-matte-black",
-        "in-stock": false,
-        "reminder-counter": 0,
-        "channel-url": "H1_WEBHOOK"
-    },
-    "BBW-Candelabra": {
-        "name": "BBW Candelabra 3-Wick Candle Holder",
-        "store": "BBW",
-        "URL": "https://www.bathandbodyworks.com/p/candelabra-3-wick-candle-holder-026168734.html",
-        "in-stock": false,
-        "reminder-counter": 0,
-        "channel-url": "BBW_WEBHOOK"
-    }
-}
+{"lulu-Apres": {"name": "lululemon Apres It All Jacket - Size 4", "store": "lululemon", "URL": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Apres-It-All-Jacket/_/prod10390065?sz=4", "in-stock": false, "reminder-counter": 0, "channel-url": "WEBHOOK_URL"}}

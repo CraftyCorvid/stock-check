@@ -2,7 +2,6 @@ import json
 import os
 from datetime import datetime
 from importlib import import_module
-from importlib.resources import open_text
 
 from src.fetcher import fetch
 from src.notify import discordNotify
